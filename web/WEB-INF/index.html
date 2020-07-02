@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+<body>
+
+<h3>Wyszukaj użytkownika po:</h3>
+
+<form action="/search" method="post" >
+
+    <input type="text" name="imie" placeholder="Imię" />
+    <input type="text" name="nazwisko" placeholder="Nazwisko" />
+    <input type="number" name="wiek" placeholder="Wiek" />
+    <input type="submit" value="Szukaj" />
+
+</form>
+
+<h3>Usuń użytkownika po:</h3>
+
+<form action="/delete" method="post" >
+
+    <input type="text" name="imie" placeholder="Imię" />
+    <input type="text" name="nazwisko" placeholder="Nazwisko" />
+    <input type="number" name="wiek" placeholder="Wiek" />
+    <input type="submit" value="Usuń" />
+
+</form>
+
+</body>
+</html>
